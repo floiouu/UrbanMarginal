@@ -18,11 +18,18 @@ public class JeuClient extends Jeu {
 	public void reception() {
 	}
 	
+	@Override
+	public void deconnexion() {
+		// TODO Auto-generated method stub
+	}
+	
 	/**
 	 * Envoi d'une information vers le serveur
 	 * fais appel une fois à l'envoi dans la classe Jeu
 	 */
 	public void envoi() {
 	}
+
+
 
 }
