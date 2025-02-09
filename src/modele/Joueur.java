@@ -31,23 +31,21 @@ public class Joueur extends Objet {
 	 */
 	private JeuServeur jeuServeur ;
 	/**
-	 * numéro d'�tape dans l'animation (de la marche, touché ou mort)
+	 * numéro d'étape dans l'animation (de la marche, touché ou mort)
 	 */
 	private int etape ;
 	/**
 	 * la boule du joueur
 	 */
 	private Boule boule ;
-	
-	/** 
-	 * vie restante du joueur
-	 */
-	private int vie;
-	
 	/**
-	 * tourné vers la gauche(0) ou vers la droite (1)
-	 */
-	private int orientation;
+	* vie restante du joueur
+	*/
+	private int vie ; 
+	/**
+	* tourné vers la gauche (0) ou vers la droite (1)
+	*/
+	private int orientation ;
 	
 	/**
 	 * Constructeur
@@ -103,6 +101,14 @@ public class Joueur extends Objet {
 	 * Perte de points de vie après avoir été touché 
 	 */
 	public void perteVie() {
+	}
+	
+	/**
+	* Contrôle si le joueur touche un des murs
+	* @return true si un joueur touche un mur
+	*/
+	private Boolean toucheMur() {
+		return null;
 	}
 	
 	/**
